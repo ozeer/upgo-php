@@ -1,0 +1,20 @@
+{
+    "name": "opt/upgo-php",
+    "description": "A CLI tool for update latest Go.",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhouyang",
+            "email": "zhouyang2021@163.com"
+        }
+    ]
+}
